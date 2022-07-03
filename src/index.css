@@ -20,7 +20,26 @@ body {
   padding: 2rem;
   border-radius: 5px;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
-  width: 800px;
+  width: 700px;
   max-width: 100%;
   text-align: center;
+}
+
+.App input {
+  padding: 0.5rem;
+}
+
+.App button {
+  border: 0;
+  padding: 0.6rem;
+  border-radius: 5px;
+  margin-left: 0.5rem;
+  background-color: #34ace0;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  color: white;
+}
+
+.App button:active {
+  transform: scale(0.96);
 }
