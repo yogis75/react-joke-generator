@@ -43,3 +43,8 @@ body {
 .App button:active {
   transform: scale(0.96);
 }
+
+select {
+  padding: 0.5rem;
+  border-radius: 5px;
+}
