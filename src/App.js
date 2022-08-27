@@ -37,7 +37,7 @@ function App() {
 
   useEffect(() => {
     typeHandler();
-  }, [filter]);
+  });
 
   return (
     <div className="App">
