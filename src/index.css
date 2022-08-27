@@ -48,3 +48,11 @@ select {
   padding: 0.5rem;
   border-radius: 5px;
 }
+
+h4 {
+  margin-bottom: -5px;
+}
+
+p {
+  padding-bottom: 1rem;
+}
