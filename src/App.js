@@ -5,7 +5,7 @@ function App() {
   const [joke, setJoke] = useState("");
   const [typeOfJoke, setTypeOfJoke] = useState("Any");
   const [filter, setFilter] = useState("");
-  const API = `https://v2.jokeapi.dev/joke/${typeOfJoke}`;
+  const API = `https://v2.jokeapi.dev/joke/${typeOfJoke}?blacklistFlags=nsfw`;
 
   //Functions
   const filterHandler = (e) => {
